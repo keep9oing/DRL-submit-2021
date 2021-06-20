@@ -7,6 +7,7 @@ Tested Heterogeneous tasks are coveraging, visiting and pick&place.
 
 [LKH3.0](http://webhotel4.ruc.dk/~keld/research/LKH-3/) is used to compare the performance of the model.
 
+![20210620_213734](https://user-images.githubusercontent.com/31655488/122674363-c405f800-d20f-11eb-8b40-fd6918cbbe50.png)
 
 ## Dependency
 ### Training environment of author
@@ -30,10 +31,15 @@ Calculate performance gap between the model and the LKH3.0
 python test_performance --model_path="Models/simple_model_C4_V4_D4.pth" --num_te_dataset 1000
 ```
 ### Visualize sample solutions
-Visualize the result of one sample
+Visualize the result of one sample. Can check various samples with different seed.
 ```bash
 python sample_plot.py --model_path="Models/simple_model_C4_V4_D4.pth" --seed 456
 ```
-그림
 
-참조
+![sdfsfd](https://user-images.githubusercontent.com/31655488/122674316-85703d80-d20f-11eb-89e9-ad481f83b22d.png)
+
+## Reference
+* https://github.com/Rintarooo/TSP_DRL_PtrNet
+* https://github.com/ita9naiwa/TSP-solver-using-reinforcement-learning
+* https://arxiv.org/abs/1611.09940
+* https://arxiv.org/abs/1803.08475
