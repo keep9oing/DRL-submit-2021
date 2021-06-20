@@ -18,6 +18,9 @@ Tested Heterogeneous tasks are coveraging, visiting and pick&place.
 * numpy==1.20.3
 * tqdm==4.60.0
 * matplotlib==3.4.1
+### Heuristic solver
+* [LKH3.0](http://webhotel4.ruc.dk/~keld/research/LKH-3/)
+Executable file is needed and should be at the same folder with the codes.
 
 ## Execution
 ### Train model
